@@ -17,7 +17,7 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
             className="text-2xl font-bold"
           >
-            ANIMATOR
+            3D ARTISRT
           </motion.div>
 
           <div className="md:hidden">

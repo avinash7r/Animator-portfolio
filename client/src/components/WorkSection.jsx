@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+
 
 const WorkSection = ({ works, handleMouseEnter, handleMouseLeave }) => {
   return (
@@ -51,8 +53,9 @@ const WorkSection = ({ works, handleMouseEnter, handleMouseLeave }) => {
           transition={{ duration: 0.5 }}
           className="mt-16 text-center"
         >
-          <button className="border-white text-white hover:bg-[#FF9500] hover:text-black transition-colors duration-300 ease-in-out transform hover:scale-105 px-4 py-2 text-lg rounded">
-            View All Projects - >
+          <button className="border-white text-white hover:bg-[#FF9500] hover:text-black transition-colors duration-300 ease-in-out transform hover:scale-105 px-4 py-2 text-lg rounded flex items-center gap-2 mx-auto">
+            <span className="text-[#ffffff]">View all Projects</span>
+            <ArrowRight className="text-[#ffffff] transition-transform group-hover:translate-x-1" />
           </button>
         </motion.div>
       </div>

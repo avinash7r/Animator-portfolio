@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
 
-const SocialButton = ({ icon, onMouseEnter, onMouseLeave }) => (
+const SocialButton = ({ icon, onMouseEnter, onMouseLeave, href }) => (
   <Button
     variant="outline"
     size="icon"
@@ -8,7 +8,9 @@ const SocialButton = ({ icon, onMouseEnter, onMouseLeave }) => (
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
   >
-    {icon}
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      {icon}
+    </a>
   </Button>
 )
 

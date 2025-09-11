@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Button from "@mui/material/Button";
 import { Github, Linkedin, Mail } from "lucide-react";
+    import { FaBehance } from "react-icons/fa";
 import SocialButton from "./SocialButton";
 
 const ContactSection = ({ handleMouseEnter, handleMouseLeave }) => {
@@ -113,11 +114,11 @@ const ContactSection = ({ handleMouseEnter, handleMouseLeave }) => {
               <div className="space-y-6">
                 <div>
                   <p className="text-primary font-medium mb-1">Email</p>
-                  <p className="text-xl">hello@animatorportfolio.com</p>
+                  <p className="text-xl">gouthamram1615@gmail.com</p>
                 </div>
                 <div>
                   <p className="text-primary font-medium mb-1">Based in</p>
-                  <p className="text-xl">Los Angeles, California</p>
+                  <p className="text-xl">Hyderabad, Telangana</p>
                 </div>
               </div>
             </div>
@@ -126,19 +127,16 @@ const ContactSection = ({ handleMouseEnter, handleMouseLeave }) => {
               <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
               <div className="flex gap-4">
                 <SocialButton
-                  icon={<Github />}
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                />
-                <SocialButton
                   icon={<Linkedin />}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
+                  href="https://www.linkedin.com/in/goutham-ram-737b902b8/"
                 />
                 <SocialButton
-                  icon={<Mail />}
+                  icon={<FaBehance />}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
+                  href="https://www.behance.net/gouthamram2"
                 />
               </div>
             </div>

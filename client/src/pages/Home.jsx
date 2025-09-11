@@ -7,6 +7,8 @@ import Footer from "../components/Footer";
 import ContactSection from "../components/ContactSection";
 import HeroSection from "../components/HeroSection";
 import WorkSection from "../components/WorkSection";
+import FeaturedWork from "../components/FeaturedWork";
+import VideosSection from "../components/VideosSection";
 
 const Home = () => {
   const [currentWork, setCurrentWork] = useState(0);
@@ -54,11 +56,21 @@ const Home = () => {
         handleMouseEnter={handleMouseEnter}
         handleMouseLeave={handleMouseLeave}
       />
-      <WorkSection
+      <FeaturedWork
+        currentWork={currentWork}
+        setCurrentWork={setCurrentWork}
+        isPlaying={isPlaying}
+        setIsPlaying={setIsPlaying}
+      />
+      {/* <WorkSection
         works={works}
         handleMouseEnter={handleMouseEnter}
         handleMouseLeave={handleMouseLeave}
-      />
+      /> */}
+      {/* <VideosSection
+        handleMouseEnter={handleMouseEnter}
+        handleMouseLeave={handleMouseLeave}
+      /> */}
       <MobileMenu />
       <section id="about">
         <AboutSection />
@@ -66,7 +78,7 @@ const Home = () => {
       <section id="contact">
         <ContactSection />
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

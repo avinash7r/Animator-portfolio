@@ -42,31 +42,42 @@ const AboutSection = ({ handleMouseEnter, handleMouseLeave }) => {
               About <span className="text-primary text-[#FF9500]">Me</span>
             </h2>
             <p className="text-xl text-gray-300 mb-6">
-              I'm a passionate animator with over 10 years of experience creating compelling visual stories through
-              animation. My work spans from character animation to motion graphics and 3D visualization.
+              I am a 3D artist specializing in modeling, texturing, lighting,
+              and rendering, with a strong focus on creating detailed and
+              visually striking assets. My work spans from hard-surface modeling
+              to stylized designs, blending technical precision with creativity
+              to bring ideas to life.
             </p>
             <p className="text-xl text-gray-300 mb-8">
-              I've collaborated with leading studios and brands to bring their ideas to life, always focusing on
-              creating memorable and impactful animations that connect with audiences.
+              With experience in Blender, Premiere Pro, and After Effects, I
+              craft projects that balance realism and artistry. From product
+              visualization to imaginative environments, each piece reflects my
+              dedication to quality and storytelling. This portfolio showcases
+              my best work, highlighting both technical skill and
+              artistic vision.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div>
-                <h3 className="text-primary font-bold text-xl mb-3 text-[#FF9500]">Skills</h3>
+                <h3 className="text-primary font-bold text-xl mb-3 text-[#FF9500]">
+                  Skills
+                </h3>
                 <ul className="space-y-2 text-gray-300">
                   <li>3D Animation</li>
-                  <li>Character Design</li>
+                  <li>3D Visualization</li>
                   <li>Motion Graphics</li>
                   <li>Storyboarding</li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-primary font-bold text-xl mb-3 text-[#FF9500]">Software</h3>
+                <h3 className="text-primary font-bold text-xl mb-3 text-[#FF9500]">
+                  Software
+                </h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>Maya</li>
                   <li>Blender</li>
+                  <li>Premiere Pro</li>
                   <li>After Effects</li>
-                  <li>Cinema 4D</li>
+                  {/* <li>Cinema 4D</li> */}
                 </ul>
               </div>
             </div>
@@ -83,7 +94,7 @@ const AboutSection = ({ handleMouseEnter, handleMouseLeave }) => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default AboutSection
