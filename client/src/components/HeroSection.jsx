@@ -71,8 +71,8 @@ const HeroSection = ({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            Award-winning animator specializing in 3D mode, character design,
-            and motion graphics
+            Bringing ideas to life through modelling. Passionate 3d artist
+            specializing in modelling and motion graphics.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

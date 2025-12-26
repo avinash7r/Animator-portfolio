@@ -1,6 +1,6 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import Button from "@mui/material/Button";
-import { ArrowRight } from "lucide-react"
+import { ArrowRight } from "lucide-react";
 
 const AboutSection = ({ handleMouseEnter, handleMouseLeave }) => {
   return (
@@ -42,11 +42,11 @@ const AboutSection = ({ handleMouseEnter, handleMouseLeave }) => {
               About <span className="text-primary text-[#FF9500]">Me</span>
             </h2>
             <p className="text-xl text-gray-300 mb-6">
-              I am a 3D artist specializing in modeling, texturing, lighting,
-              and rendering, with a strong focus on creating detailed and
-              visually striking assets. My work spans from hard-surface modeling
-              to stylized designs, blending technical precision with creativity
-              to bring ideas to life.
+              I am a 3D artist specializing in modeling, texturing, lighting and
+              rendering with a strong focus on creating detailed and visually
+              striking assets. My work spans from hard-surface modeling to
+              stylized designs, blending technical precision with creativity to
+              bring ideas to life.
             </p>
             <p className="text-xl text-gray-300 mb-8">
               With experience in Blender, Premiere Pro, and After Effects, I
@@ -63,7 +63,7 @@ const AboutSection = ({ handleMouseEnter, handleMouseLeave }) => {
                   Skills
                 </h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>3D Animation</li>
+                  <li>3D Modelling</li>
                   <li>3D Visualization</li>
                   <li>Motion Graphics</li>
                   <li>Storyboarding</li>
@@ -95,6 +95,6 @@ const AboutSection = ({ handleMouseEnter, handleMouseLeave }) => {
       </div>
     </section>
   );
-}
+};
 
-export default AboutSection
+export default AboutSection;
